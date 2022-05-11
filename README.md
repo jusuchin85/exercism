@@ -10,3 +10,6 @@ Exercises are validated using the language's own testing toolkit.
 
 To start using `exercism`, you can [install the CLI](https://exercism.org/cli-walkthrough).
 
+## Directory
+
+* [Ruby](ruby/)
