@@ -1,6 +1,6 @@
 # exercism Exercises
 
-This is a repository that stores my learnings from [exercism](https://exercism.org/) - a non-for-profit and independent programming learning site. Includes popular languages such as Python, Ruby, Java and Go.
+This is a repository that stores my learnings from [exercism][exercism-site] - a non-for-profit and independent programming learning site. Includes popular languages such as Python, Ruby, Java and Go.
 
 Ideally, you should be trying out the exercises yourself first before reviewing the answers here. This repository serves as a storage of my exercises so that I can refer to it at a latter time. 😄
 
@@ -8,8 +8,11 @@ Ideally, you should be trying out the exercises yourself first before reviewing 
 
 Exercises are validated using the language's own testing toolkit.
 
-To start using `exercism`, you can [install the CLI](https://exercism.org/cli-walkthrough).
+To start using `exercism`, you can [install the CLI][exercism-cli-help].
 
 ## Directory
 
 * [Ruby](ruby/)
+
+[exercism-site]: https://exercism.org/
+[exercism-cli-help]: https://exercism.org/cli-walkthrough

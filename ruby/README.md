@@ -1,6 +1,6 @@
 # Ruby
 
-The [Ruby track](https://exercism.org/tracks/ruby) uses [`minitest`](http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html) for validating your solution:
+The [Ruby track][ruby-track-on-exercism] uses [`minitest`][intro-to-tdd] for validating your solution:
 
     gem install minitest
 
@@ -16,7 +16,11 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 
 * [`hello-world`](hello-world/) - Intro to `exercism`
 * [`lasagna`](lasagna/) - Intro to Ruby
+* [`two-fer`](two-fer/) - Intro to Ruby
 
 ### Strings
 
 * [`log-line-parser`](log-line-parser/)
+
+[ruby-track-on-exercism]: https://exercism.org/tracks/ruby
+[intro-to-tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html

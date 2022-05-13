@@ -1,7 +1,13 @@
-=begin
-Write your code for the 'Two Fer' exercise in this file. Make the tests in
-`two_fer_test.rb` pass.
+class TwoFer
 
-To get started with TDD, see the `README.md` file in your
-`ruby/two-fer` directory.
-=end
+  # method to return a message based on the passed name
+  def self.two_fer(name = 'you')
+    "One for #{name}, one for me."
+  end
+end
+
+# Example messages
+puts TwoFer.two_fer('Alice')
+puts TwoFer.two_fer('Bon')
+puts TwoFer.two_fer
+puts TwoFer.two_fer('Zaphod')
