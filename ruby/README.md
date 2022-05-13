@@ -26,5 +26,9 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 
 * [Amusement Park](amusement-park/)
 
+### Raising Exceptions
+
+* [Simple Calculator](simple-calculator/)
+
 [ruby-track-on-exercism]: https://exercism.org/tracks/ruby
 [intro-to-tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
