@@ -1,4 +1,7 @@
 class SimpleCalculator
+
+  class UnsupportedOperation < StandardError; end
+
   ALLOWED_OPERATIONS = ['+', '/', '*'].freeze
   @result = nil
 
@@ -13,11 +16,21 @@ class SimpleCalculator
      end
      "#{first_operand} #{operation} #{second_operand} = #{@result}"
     else
-      "bye"
+      raise UnsupportedOperation
     end
   end
 end
 
+## Step 1
 # puts SimpleCalculator.calculate(16, 51, "+")
 # puts SimpleCalculator.calculate(32, 6, "*")
 # puts SimpleCalculator.calculate(512, 4, "/")
+
+# Step 2
+puts SimpleCalculator.calculate(1, 2, '-')
+
+# # Step 3
+# puts SimpleCalculator.calculate(1, '2', '*')
+
+# # Step 4
+# puts SimpleCalculator.calculate(512, 0, "/")
