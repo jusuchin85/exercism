@@ -1,35 +1,23 @@
 class SimpleCalculator
-  class UnsupportedOperation < StandardError
-  end
-
   ALLOWED_OPERATIONS = ['+', '/', '*'].freeze
-  @result = nil
-
   def self.calculate(first_operand, second_operand, operation)
-    if (!first_operand.is_a? Integer) || (!second_operand.is_a? Integer)
-      raise ArgumentError
-    end
-
-    if ALLOWED_OPERATIONS.include? operation
-      if operation == "+"
-        @result = first_operand + second_operand
-        @result = "#{first_operand} #{operation} #{second_operand} = #{@result}"
-      elsif operation == "*"
-        @result = first_operand * second_operand
-        @result = "#{first_operand} #{operation} #{second_operand} = #{@result}"
-      else
-        if second_operand == 0
-          @result = "Division by zero is not allowed."
-        else
-          @result = first_operand / second_operand
-          @result =
-            "#{first_operand} #{operation} #{second_operand} = #{@result}"
-        end
+    begin
+      raise ArgumentError unless first_operand.is_a?(Integer)
+      raise ArgumentError unless second_operand.is_a?(Integer)
+      unless ALLOWED_OPERATIONS.include?(operation)
+        raise UnsupportedOperation.new
       end
-      "#{@result}"
-    else
-      raise UnsupportedOperation
+      if second_operand == 0 && operation == "/"
+        raise ZeroDivisionError.new("Division by zero is not allowed.")
+      end
+
+      result = first_operand.send(operation.to_sym, second_operand)
+      return "#{first_operand} #{operation} #{second_operand} = #{result}"
+    rescue ZeroDivisionError => exception
+      return exception.message
     end
+  end
+  class UnsupportedOperation < StandardError
   end
 end
 
