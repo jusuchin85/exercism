@@ -7,8 +7,9 @@ To get started with TDD, see the `README.md` file in your
 =end
 
 class Acronym
+    MATCHER = /[^a-zA-Z0-9]/
 
     def self.abbreviate(text)
-        text.scan(/\b\w/).join.upcase
+        text.gsub(MATCHER, ' ').split(' ').map(&:chr).join.upcase
     end
 end
