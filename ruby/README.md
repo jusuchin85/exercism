@@ -21,6 +21,7 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 ### Strings
 
 * [Log line Parser](log-line-parser/)
+* [Acronym](acronym/)
 
 ### Instance Variables
 
