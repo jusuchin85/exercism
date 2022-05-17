@@ -30,5 +30,9 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 
 * [Simple Calculator](simple-calculator/)
 
+### Booleans
+
+[Amusement Park Improvements](amusement-park-improvements/)
+
 [ruby-track-on-exercism]: https://exercism.org/tracks/ruby
 [intro-to-tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
