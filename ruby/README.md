@@ -36,5 +36,13 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 
 [Amusement Park Improvements](amusement-park-improvements/)
 
+### Conditionals
+
+* [Assembly Line](assembly-line/)
+
+### Numbers
+
+* [Assembly Line](assembly-line/)
+
 [ruby-track-on-exercism]: https://exercism.org/tracks/ruby
 [intro-to-tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
