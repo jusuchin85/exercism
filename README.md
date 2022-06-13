@@ -9,4 +9,6 @@ Ideally, you should be trying out the exercises yourself first before reviewing 
 Exercises are validated using the language's own testing toolkit.
 
 To start using `exercism`, you can [install the CLI](https://exercism.org/cli-walkthrough).
+## Directory
 
+* [Groovy](groovy/)
