@@ -1,4 +1,8 @@
+# General
 **/**/.exercism
+
+# Groovy Track
+**/**/build
 **/**/gradle
 **/**/*.gradle
 **/**/gradlew*
