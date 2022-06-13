@@ -16,6 +16,5 @@ where `<EXERCISE_NAME>` is the name of the exercise.
 
 ## Exercises
 
-### Basics
-
-* [Hello World](hello-world/) - Intro to `exercism`
+* [Hello World](hello-world/)
+* [Two Fer](two-fer/)
